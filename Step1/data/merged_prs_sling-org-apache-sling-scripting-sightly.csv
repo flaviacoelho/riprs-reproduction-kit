@@ -1,0 +1,4 @@
+repo,pr_number,before_commit,after_commit
+"""sling-org-apache-sling-scripting-sightly""",5,,
+"""sling-org-apache-sling-scripting-sightly""",3,,
+"""sling-org-apache-sling-scripting-sightly""",2,https://github.com/apache/sling-org-apache-sling-scripting-sightly/commit/b40fbe9389a0ebcc566f731eeea2471ddae54977,https://github.com/apache/sling-org-apache-sling-scripting-sightly/commit/7353d6025bc08b0c20006b8838a87651b434fe21

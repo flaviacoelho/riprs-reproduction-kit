@@ -1,0 +1,14 @@
+repo,pr_number,before_commit,after_commit
+"""maven-javadoc-plugin""",29,,
+"""maven-javadoc-plugin""",24,,
+"""maven-javadoc-plugin""",23,,
+"""maven-javadoc-plugin""",20,,
+"""maven-javadoc-plugin""",19,,
+"""maven-javadoc-plugin""",18,,
+"""maven-javadoc-plugin""",13,,
+"""maven-javadoc-plugin""",12,,
+"""maven-javadoc-plugin""",11,https://github.com/apache/maven-javadoc-plugin/commit/373876210ad0e65c2bceafe8c5747d5f0e6ff1b6,https://github.com/apache/maven-javadoc-plugin/commit/c05e8dc12410e0cf71b527360fd9e9e5c7579539
+"""maven-javadoc-plugin""",10,https://github.com/apache/maven-javadoc-plugin/commit/45473e374069aca145e109ef15fb7b3b01d3ead0,https://github.com/apache/maven-javadoc-plugin/commit/5a6489ab156c31d228db19a422c3d1c62b5ea980
+"""maven-javadoc-plugin""",7,,
+"""maven-javadoc-plugin""",6,,
+"""maven-javadoc-plugin""",2,https://github.com/apache/maven-javadoc-plugin/commit/e440d5ce15bff69edfa7d7046e2cb71acf881e93,https://github.com/apache/maven-javadoc-plugin/commit/80697ad83aa6ec58d81ffce31b9b67f86621bbbc

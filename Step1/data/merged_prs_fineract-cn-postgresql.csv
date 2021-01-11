@@ -1,0 +1,6 @@
+repo,pr_number,before_commit,after_commit
+"""fineract-cn-postgresql""",5,https://github.com/apache/fineract-cn-postgresql/commit/a8f05baf535623e79751728d5ba353978d86bdb2,https://github.com/apache/fineract-cn-postgresql/commit/df172c6601f4723d4319a20f8318719e439539ad
+"""fineract-cn-postgresql""",4,,
+"""fineract-cn-postgresql""",3,,
+"""fineract-cn-postgresql""",2,,
+"""fineract-cn-postgresql""",1,,

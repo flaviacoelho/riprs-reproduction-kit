@@ -1,0 +1,15 @@
+repo,pr_number,before_commit,after_commit
+"""openjpa""",53,,
+"""openjpa""",52,https://github.com/apache/openjpa/commit/c164737ffca559c0bd9cbe51c5b4cd11fa5222ef,https://github.com/apache/openjpa/commit/d381f3f62cf92ed6b76b0e0576c692a1d5e288d8
+"""openjpa""",51,https://github.com/apache/openjpa/commit/dcd5188b028bd3f09a9c3eeaf132191f5f228d72,https://github.com/apache/openjpa/commit/7ca94546ee6ccd99c131914657da95a29f63e9bc
+"""openjpa""",50,,
+"""openjpa""",49,https://github.com/apache/openjpa/commit/eadfd6f7004d038c01b0e63155329f32b13222a4,https://github.com/apache/openjpa/commit/27c9e52843e1d22f50f505839fd35df1a6ce8328
+"""openjpa""",48,,
+"""openjpa""",47,https://github.com/apache/openjpa/commit/eb57123bb8a6a23bb1742818688584a2b2ba6259,https://github.com/apache/openjpa/commit/4d673f3715b2f3ae28d9bb4d70fad431eece8cb6
+"""openjpa""",46,,
+"""openjpa""",45,,
+"""openjpa""",43,https://github.com/apache/openjpa/commit/479b611f9d45dfcef0c0d0b2d21a262bb908d98e,https://github.com/apache/openjpa/commit/29b82b23efa1db5024706851063c1988fb130398
+"""openjpa""",39,,
+"""openjpa""",38,,
+"""openjpa""",24,,
+"""openjpa""",23,,

@@ -1,0 +1,799 @@
+
+Discarding ARs occurring in both groups
+total: 108
+____________________________________________________
+
+These are the columns of the one-hot encoded for RIPRs:
+['low commits', 'medium commits', 'high commits', 'very high commits', 
+'low files', 'medium files', 'high files', 'very high files',
+'low additions', 'medium additions', 'high additions', 'very high additions',
+'low deletions', 'medium deletions', 'high deletions', 'very high deletions', 
+'low reviewers', 'n_reviewers_2_to_2', 'high reviewers', 'very high reviewers', 
+'low review comments', 'medium review comments', 'high review comments', 'very high review comments', 
+'low time', 'time_to_merge_2_to_7', 'time_to_merge_7_to_19', 'very high time', 
+'low refactorings', 'n_refactorings_2_to_5', 'n_refactorings_5_to_21', 'very high refactorings', 
+'low discussion', 'medium discussion', 'high discussion', 'very high discussion']
+
+____________________________________________________
+
+FP-Growth results - RIPRs
+
+Running for the minimal support =  0.1
+
+FP-Growth found 269 associations
+
+ ['very high commits'] -> ['very high reviewers'] 
+ support: 0.17543859649122806 
+ confidence: 0.605427974947808 
+ lift: 1.4358284685634528 
+ conviction: 1.465746102164735 
+
+
+ ['medium files'] -> ['high commits'] 
+ support: 0.14398064125831822 
+ confidence: 0.5010526315789474 
+ lift: 1.471119005328597 
+ conviction: 1.3215965856734082 
+
+
+ ['very high time'] -> ['very high reviewers'] 
+ support: 0.14337568058076225 
+ confidence: 0.5537383177570094 
+ lift: 1.3132416632027784 
+ conviction: 1.29597146866082 
+
+
+ ['very high discussion'] -> ['very high commits'] 
+ support: 0.14519056261343014 
+ confidence: 0.5620608899297425 
+ lift: 1.9396381024089027 
+ conviction: 1.6217410574195035 
+
+
+ ['very high discussion', 'very high commits'] -> ['very high reviewers'] 
+ support: 0.11494252873563218 
+ confidence: 0.7916666666666666 
+ lift: 1.8775107604017216 
+ conviction: 2.7760435571687836 
+
+
+ ['medium deletions'] -> ['medium files'] 
+ support: 0.14035087719298245 
+ confidence: 0.5590361445783132 
+ lift: 1.94544578313253 
+ conviction: 1.6161045160479868 
+
+
+ ['very high review comments'] -> ['very high commits'] 
+ support: 0.13732607380520268 
+ confidence: 0.5483091787439615 
+ lift: 1.8921817796738378 
+ conviction: 1.5723672078961932 
+
+
+ ['very high review comments', 'very high commits'] -> ['very high discussion'] 
+ support: 0.12341197822141561 
+ confidence: 0.8986784140969163 
+ lift: 3.4789588255320907 
+ conviction: 7.32007680370341 
+
+
+ ['very high review comments', 'very high commits'] -> ['very high reviewers'] 
+ support: 0.11131276467029642 
+ confidence: 0.8105726872246695 
+ lift: 1.9223481377078602 
+ conviction: 3.0531099199482243 
+
+
+ ['very high review comments', 'very high reviewers', 'very high commits'] -> ['very high discussion'] 
+ support: 0.10163339382940109 
+ confidence: 0.9130434782608696 
+ lift: 3.534568781183179 
+ conviction: 8.52934059286147 
+
+
+ ['medium additions'] -> ['medium files'] 
+ support: 0.14398064125831822 
+ confidence: 0.5748792270531402 
+ lift: 2.000579710144928 
+ conviction: 1.6763322884012544 
+
+
+ ['high discussion'] -> ['high review comments'] 
+ support: 0.16152450090744103 
+ confidence: 0.6327014218009479 
+ lift: 2.4322219772952716 
+ conviction: 2.0143473254883597 
+
+
+ ['high deletions'] -> ['high additions'] 
+ support: 0.1542649727767695 
+ confidence: 0.6174334140435835 
+ lift: 2.4652595010001055 
+ conviction: 1.9592570470261206 
+
+
+ ['high deletions', 'high files'] -> ['high additions'] 
+ support: 0.10526315789473684 
+ confidence: 0.7044534412955464 
+ lift: 2.812709030100334 
+ conviction: 2.536136041568256 
+
+
+ ['low files'] -> ['low additions'] 
+ support: 0.1572897761645493 
+ confidence: 0.7514450867052024 
+ lift: 3.0222353487194638 
+ conviction: 3.0229181614822953 
+
+
+ ['low files'] -> ['low deletions'] 
+ support: 0.1482153660012099 
+ confidence: 0.708092485549133 
+ lift: 2.8548216551529677 
+ conviction: 2.5760423592268484 
+
+
+ ['low files'] -> ['high reviewers'] 
+ support: 0.11010284331518451 
+ confidence: 0.5260115606936416 
+ lift: 1.2042896257986004 
+ conviction: 1.1882534342584805 
+
+
+ ['low files', 'low deletions'] -> ['low additions'] 
+ support: 0.1306715063520871 
+ confidence: 0.8816326530612245 
+ lift: 3.5458364367644872 
+ conviction: 6.347706364603543 
+
+
+ ['low refactorings'] -> ['low deletions'] 
+ support: 0.11796733212341198 
+ confidence: 0.5838323353293413 
+ lift: 2.3538410982912223 
+ conviction: 1.8068826245718488 
+
+
+ ['low refactorings'] -> ['low additions'] 
+ support: 0.11373260738052027 
+ confidence: 0.562874251497006 
+ lift: 2.263822719524455 
+ conviction: 1.7188673147204336 
+
+
+ ['high review comments'] -> ['very high reviewers'] 
+ support: 0.1367211131276467 
+ confidence: 0.5255813953488372 
+ lift: 1.2464649160855492 
+ conviction: 1.2190550751456057 
+
+
+ ['low commits'] -> ['low files'] 
+ support: 0.10344827586206896 
+ confidence: 0.59375 
+ lift: 2.8366148843930636 
+ conviction: 1.946298106007725 
+
+
+ ['low commits'] -> ['low additions'] 
+ support: 0.10163339382940109 
+ confidence: 0.5833333333333334 
+ lift: 2.346107055961071 
+ conviction: 1.8032667876588024 
+
+
+ ['very high refactorings'] -> ['very high commits'] 
+ support: 0.14156079854809436 
+ confidence: 0.5545023696682464 
+ lift: 1.9135541066004413 
+ conviction: 1.594225843405285 
+
+
+ ['very high refactorings'] -> ['very high reviewers'] 
+ support: 0.13793103448275862 
+ confidence: 0.5402843601895734 
+ lift: 1.2813343578097056 
+ conviction: 1.2580437941636884 
+
+
+ ['very high deletions'] -> ['very high refactorings'] 
+ support: 0.19540229885057472 
+ confidence: 0.7783132530120482 
+ lift: 3.0487009649974306 
+ conviction: 3.3592743102133147 
+
+
+ ['very high deletions'] -> ['very high reviewers'] 
+ support: 0.13611615245009073 
+ confidence: 0.5421686746987951 
+ lift: 1.2858031840417623 
+ conviction: 1.2632215748081637 
+
+
+ ['very high deletions', 'very high reviewers'] -> ['very high refactorings'] 
+ support: 0.10949788263762855 
+ confidence: 0.8044444444444445 
+ lift: 3.1510584518167457 
+ conviction: 3.8081587196832216 
+
+
+ ['very high deletions', 'very high reviewers'] -> ['very high commits'] 
+ support: 0.10102843315184513 
+ confidence: 0.7422222222222223 
+ lift: 2.5613639526791934 
+ conviction: 2.755178672007011 
+
+
+ ['very high refactorings', 'very high commits'] -> ['very high deletions'] 
+ support: 0.12220205686630368 
+ confidence: 0.8632478632478633 
+ lift: 3.4384306456595612 
+ conviction: 5.4766333938294025 
+
+
+ ['very high additions'] -> ['very high refactorings'] 
+ support: 0.191167574107683 
+ confidence: 0.7632850241545894 
+ lift: 2.9898344666529293 
+ conviction: 3.1460054076076895 
+
+
+ ['very high additions'] -> ['very high reviewers'] 
+ support: 0.13188142770719904 
+ confidence: 0.5265700483091789 
+ lift: 1.2488095980704055 
+ conviction: 1.221600800029631 
+
+
+ ['very high additions', 'very high refactorings'] -> ['very high deletions'] 
+ support: 0.17725347852389595 
+ confidence: 0.9272151898734177 
+ lift: 3.693220985206649 
+ conviction: 10.289802467187451 
+
+
+ ['very high additions', 'very high refactorings'] -> ['very high files'] 
+ support: 0.1808832425892317 
+ confidence: 0.9462025316455696 
+ lift: 3.7688500838798227 
+ conviction: 13.921497455606545 
+
+
+ ['very high additions', 'very high deletions', 'very high refactorings'] -> ['very high files'] 
+ support: 0.1693889897156685 
+ confidence: 0.9556313993174061 
+ lift: 3.806406513425716 
+ conviction: 16.879985108660247 
+
+
+ ['very high additions', 'very high reviewers'] -> ['very high deletions'] 
+ support: 0.11131276467029642 
+ confidence: 0.8440366972477062 
+ lift: 3.3619100254227914 
+ conviction: 4.802035514750359 
+
+
+ ['very high additions', 'very high reviewers'] -> ['very high refactorings'] 
+ support: 0.10828796128251664 
+ confidence: 0.8211009174311926 
+ lift: 3.2163028827340314 
+ conviction: 4.162718910450306 
+
+
+ ['very high reviewers', 'very high files'] -> ['very high additions'] 
+ support: 0.11494252873563218 
+ confidence: 0.8715596330275228 
+ lift: 3.4799228825953996 
+ conviction: 5.835753176043552 
+
+
+ ['very high additions', 'very high deletions', 'very high reviewers'] -> ['very high files'] 
+ support: 0.10344827586206896 
+ confidence: 0.9293478260869565 
+ lift: 3.7017155578837087 
+ conviction: 10.600400204755925 
+
+
+ ['very high reviewers', 'very high files', 'very high refactorings'] -> ['very high additions'] 
+ support: 0.10102843315184513 
+ confidence: 0.9382022471910113 
+ lift: 3.746010421755415 
+ conviction: 12.12902161359513 
+
+
+ ['very high refactorings', 'very high commits'] -> ['very high additions'] 
+ support: 0.1191772534785239 
+ confidence: 0.841880341880342 
+ lift: 3.36142078533383 
+ conviction: 4.740373767597002 
+
+
+ ['very high additions', 'very high deletions', 'very high commits'] -> ['very high files'] 
+ support: 0.12462189957652753 
+ confidence: 0.9671361502347418 
+ lift: 3.852231461055489 
+ conviction: 22.789214415348695 
+
+
+ ['very high additions', 'very high refactorings', 'very high commits'] -> ['very high files'] 
+ support: 0.11554748941318814 
+ confidence: 0.9695431472081217 
+ lift: 3.8618188490000604 
+ conviction: 24.590239967735357 
+
+
+ ['very high additions', 'very high refactorings', 'very high commits'] -> ['very high deletions'] 
+ support: 0.11312764670296431 
+ confidence: 0.949238578680203 
+ lift: 3.7809430615864468 
+ conviction: 14.754143980641246 
+
+
+ ['very high additions', 'very high deletions', 'very high refactorings', 'very high commits'] -> ['very high files'] 
+ support: 0.11010284331518451 
+ confidence: 0.9732620320855614 
+ lift: 3.8766316603311637 
+ conviction: 28.01040532365385 
+
+
+ ['medium discussion'] -> ['medium review comments'] 
+ support: 0.1355111917725348 
+ confidence: 0.5333333333333333 
+ lift: 2.031336405529954 
+ conviction: 1.580243712730101 
+
+
+ ['very high files'] -> ['very high deletions'] 
+ support: 0.21173623714458562 
+ confidence: 0.8433734939759037 
+ lift: 3.359268398896792 
+ conviction: 4.78170226627577 
+
+
+ ['very high files'] -> ['very high refactorings'] 
+ support: 0.19419237749546278 
+ confidence: 0.7734939759036144 
+ lift: 3.0298235596414087 
+ conviction: 3.287800388719412 
+
+
+ ['very high files'] -> ['very high reviewers'] 
+ support: 0.13188142770719904 
+ confidence: 0.5253012048192771 
+ lift: 1.2458004183160187 
+ conviction: 1.2183355290027975 
+
+
+ ['very high files', 'very high refactorings'] -> ['very high deletions'] 
+ support: 0.17785843920145192 
+ confidence: 0.9158878504672898 
+ lift: 3.6481026911383854 
+ conviction: 8.90408012368086 
+
+
+ ['very high reviewers', 'very high files'] -> ['very high deletions'] 
+ support: 0.11554748941318814 
+ confidence: 0.8761467889908255 
+ lift: 3.4898087763899626 
+ conviction: 6.0470076852411925 
+
+
+ ['very high reviewers', 'very high files'] -> ['very high refactorings'] 
+ support: 0.10768300060496068 
+ confidence: 0.8165137614678899 
+ lift: 3.1983347102047914 
+ conviction: 4.058650937689049 
+
+
+ ['very high reviewers', 'very high files'] -> ['very high commits'] 
+ support: 0.10223835450695705 
+ confidence: 0.775229357798165 
+ lift: 2.6752695792074466 
+ conviction: 3.1597713495561552 
+
+
+ ['very high refactorings', 'very high commits'] -> ['very high files'] 
+ support: 0.12280701754385964 
+ confidence: 0.8675213675213675 
+ lift: 3.455452579548965 
+ conviction: 5.653298987178737 
+
+
+ ['very high deletions', 'very high refactorings', 'very high commits'] -> ['very high files'] 
+ support: 0.11494252873563218 
+ confidence: 0.9405940594059407 
+ lift: 3.746510795657879 
+ conviction: 12.60717886670701 
+
+
+ ['low discussion'] -> ['high reviewers'] 
+ support: 0.12159709618874773 
+ confidence: 0.5234375 
+ lift: 1.1983963815789473 
+ conviction: 1.1818353118522706 
+
+
+ ['low review comments'] -> ['low discussion'] 
+ support: 0.1542649727767695 
+ confidence: 0.68 
+ lift: 2.9271875000000005 
+ conviction: 2.3990471869328496 
+
+
+
+____________________________________________________
+
+These are the columns of the one-hot encoded for non-RIPRs:
+['n_sub_commits_1_to_1', 'medium commits', 'high commits', 'very high commits', 
+'n_sub_file_changes_1_to_1', 'medium files', 'high files', 'very high files', 
+'low additions', 'medium additions', 'high additions', 'very high additions', 
+'low deletions', 'medium deletions', 'high deletions', 'very high deletions', 
+'low reviewers', 'n_reviewers_2_to_2', 'high reviewers', 'very high reviewers', 
+'low review comments', 'medium review comments', 'high review comments', 'very high review comments', 
+'low time', 'medium time', 'time_to_merge_4_to_11', 'very high time', 
+'low discussion', 'medium discussion', 'high discussion', 'very high discussions']
+
+____________________________________________________
+
+FP-Growth results - non-RIPRs
+
+Running for the minimal support =  0.1
+
+FP-Growth found 166 associations
+
+ ['very high review comments'] -> ['very high files'] 
+ support: 0.14496644295302014 
+ confidence: 0.5110410094637224 
+ lift: 1.7437811544296484 
+ conviction: 1.4457963484159633 
+
+
+ ['very high files', 'very high discussions'] -> ['very high review comments'] 
+ support: 0.11275167785234899 
+ confidence: 0.8513513513513513 
+ lift: 3.001214937334811 
+ conviction: 4.818954647142566 
+
+
+ ['very high time'] -> ['very high discussions'] 
+ support: 0.12930648769574943 
+ confidence: 0.5097001763668431 
+ lift: 1.8644515453026094 
+ conviction: 1.4819950750808748 
+
+
+ ['very high review comments', 'very high additions'] -> ['very high files'] 
+ support: 0.10022371364653244 
+ confidence: 0.8205128205128206 
+ lift: 2.799765120375808 
+ conviction: 3.93863854266539 
+
+
+ ['very high additions', 'very high discussions'] -> ['very high review comments'] 
+ support: 0.10156599552572707 
+ confidence: 0.8407407407407407 
+ lift: 2.9638100245355763 
+ conviction: 4.4978929296082395 
+
+
+ ['high commits'] -> ['high files'] 
+ support: 0.17360178970917226 
+ confidence: 0.7185185185185184 
+ lift: 1.8651438895341332 
+ conviction: 2.184033910279053 
+
+
+ ['high commits'] -> ['high reviewers'] 
+ support: 0.1319910514541387 
+ confidence: 0.5462962962962963 
+ lift: 1.0234469591133464 
+ conviction: 1.0275852622928365 
+
+
+ ['high files'] -> ['high reviewers'] 
+ support: 0.20626398210290828 
+ confidence: 0.535423925667828 
+ lift: 1.0030783519426618 
+ conviction: 1.0035369127516776 
+
+
+ ['medium deletions'] -> ['high files'] 
+ support: 0.16465324384787472 
+ confidence: 0.519774011299435 
+ lift: 1.3492391582511467 
+ conviction: 1.2801579155151994 
+
+
+ ['medium deletions'] -> ['medium commits'] 
+ support: 0.1959731543624161 
+ confidence: 0.6186440677966101 
+ lift: 1.242290648270821 
+ conviction: 1.3163907531692765 
+
+
+ ['medium deletions'] -> ['high reviewers'] 
+ support: 0.17628635346756152 
+ confidence: 0.5564971751412429 
+ lift: 1.0425575745521187 
+ conviction: 1.0512204505621336 
+
+
+ ['high reviewers', 'medium deletions'] -> ['medium commits'] 
+ support: 0.11364653243847875 
+ confidence: 0.6446700507614214 
+ lift: 1.2945530668928813 
+ conviction: 1.4128092042186007 
+
+
+ ['medium files', 'medium deletions'] -> ['medium commits'] 
+ support: 0.1284116331096197 
+ confidence: 0.9930795847750867 
+ lift: 1.9941894626885166 
+ conviction: 72.54093959731783 
+
+
+ ['medium files'] -> ['medium commits'] 
+ support: 0.3203579418344519 
+ confidence: 0.995827538247566 
+ lift: 1.9997075902815005 
+ conviction: 120.31588366890139 
+
+
+ ['medium files'] -> ['high reviewers'] 
+ support: 0.18344519015659955 
+ confidence: 0.5702364394993046 
+ lift: 1.068297101660474 
+ conviction: 1.0848272916168922 
+
+
+ ['medium files', 'high reviewers'] -> ['medium commits'] 
+ support: 0.18299776286353467 
+ confidence: 0.9975609756097561 
+ lift: 2.003188482019591 
+ conviction: 205.82550335570454 
+
+
+ ['high review comments'] -> ['high reviewers'] 
+ support: 0.19776286353467562 
+ confidence: 0.6707132018209409 
+ lift: 1.2565331148950567 
+ conviction: 1.4158455241806618 
+
+
+ ['high review comments'] -> ['medium commits'] 
+ support: 0.14809843400447428 
+ confidence: 0.5022761760242793 
+ lift: 1.0086138844692403 
+ conviction: 1.0086184318219025 
+
+
+ ['medium commits', 'high review comments'] -> ['high reviewers'] 
+ support: 0.10425055928411633 
+ confidence: 0.7039274924471299 
+ lift: 1.3187577079793256 
+ conviction: 1.5746792676802266 
+
+
+ ['medium additions'] -> ['medium commits'] 
+ support: 0.1628635346756152 
+ confidence: 0.5723270440251572 
+ lift: 1.1492820695383885 
+ conviction: 1.1738255033557048 
+
+
+ ['medium additions'] -> ['high files'] 
+ support: 0.16331096196868009 
+ confidence: 0.5738993710691824 
+ lift: 1.489738785528017 
+ conviction: 1.4427697565566262 
+
+
+ ['medium discussion'] -> ['medium commits'] 
+ support: 0.13064876957494406 
+ confidence: 0.5647969052224371 
+ lift: 1.1341609013226837 
+ conviction: 1.1535152870991798 
+
+
+ ['low deletions'] -> ['medium commits'] 
+ support: 0.15704697986577182 
+ confidence: 0.8886075949367088 
+ lift: 1.7844006960319356 
+ conviction: 4.506711409395972 
+
+
+ ['low deletions'] -> ['medium files'] 
+ support: 0.138255033557047 
+ confidence: 0.7822784810126583 
+ lift: 2.431700146124188 
+ conviction: 3.115446646896624 
+
+
+ ['low deletions'] -> ['high reviewers'] 
+ support: 0.10022371364653244 
+ confidence: 0.5670886075949367 
+ lift: 1.0623998641866585 
+ conviction: 1.0769391786700158 
+
+
+ ['low deletions', 'medium files'] -> ['medium commits'] 
+ support: 0.1378076062639821 
+ confidence: 0.9967637540453075 
+ lift: 2.0015875923551323 
+ conviction: 155.1221476510086 
+
+
+ ['low deletions', 'low additions'] -> ['medium commits'] 
+ support: 0.10335570469798658 
+ confidence: 0.9829787234042553 
+ lift: 1.9739060618225612 
+ conviction: 29.49328859060399 
+
+
+ ['low deletions', 'low additions'] -> ['medium files'] 
+ support: 0.10201342281879194 
+ confidence: 0.9702127659574468 
+ lift: 3.0158908649720355 
+ conviction: 22.77149248961326 
+
+
+ ['low deletions', 'medium files', 'low additions'] -> ['medium commits'] 
+ support: 0.10201342281879194 
+ confidence: 1.0 
+ lift: 2.0080862533692723 
+ conviction: inf 
+
+
+ ['high discussion'] -> ['high reviewers'] 
+ support: 0.15302013422818792 
+ confidence: 0.5671641791044777 
+ lift: 1.0625414419937198 
+ conviction: 1.0771272082079768 
+
+
+ ['very high review comments', 'very high deletions'] -> ['very high files'] 
+ support: 0.10022371364653244 
+ confidence: 0.7887323943661971 
+ lift: 2.691323513600688 
+ conviction: 3.3461595824011923 
+
+
+ ['very high deletions', 'very high discussions'] -> ['very high review comments'] 
+ support: 0.10201342281879194 
+ confidence: 0.8636363636363636 
+ lift: 3.0445225121881276 
+ conviction: 5.2530947054437 
+
+
+ ['low time'] -> ['medium commits'] 
+ support: 0.14228187919463087 
+ confidence: 0.6751592356687898 
+ lift: 1.3557779799818017 
+ conviction: 1.5454138702460851 
+
+
+ ['medium time'] -> ['medium commits'] 
+ support: 0.14093959731543623 
+ confidence: 0.5048076923076923 
+ lift: 1.0136973875181423 
+ conviction: 1.013774679090376 
+
+
+ ['medium time'] -> ['high reviewers'] 
+ support: 0.15794183445190157 
+ confidence: 0.5657051282051283 
+ lift: 1.0598080147011415 
+ conviction: 1.0735085068971497 
+
+
+ ['very high review comments', 'very high commits'] -> ['very high files'] 
+ support: 0.10469798657718121 
+ confidence: 0.850909090909091 
+ lift: 2.9034836918806386 
+ conviction: 4.741638020407051 
+
+
+ ['low reviewers'] -> ['medium commits'] 
+ support: 0.12527964205816555 
+ confidence: 0.5907172995780591 
+ lift: 1.1862112889101186 
+ conviction: 1.2265688784335433 
+
+
+ ['low additions'] -> ['medium commits'] 
+ support: 0.19105145413870245 
+ confidence: 0.8951781970649895 
+ lift: 1.7975950318420948 
+ conviction: 4.789208053691274 
+
+
+ ['low additions'] -> ['medium files'] 
+ support: 0.17583892617449665 
+ confidence: 0.8238993710691824 
+ lift: 2.561078017162201 
+ conviction: 3.8517737296260792 
+
+
+ ['medium files', 'low additions'] -> ['medium commits'] 
+ support: 0.17583892617449665 
+ confidence: 1.0 
+ lift: 2.0080862533692723 
+ conviction: inf 
+
+
+ ['high reviewers', 'low additions'] -> ['medium commits'] 
+ support: 0.11051454138702461 
+ confidence: 0.911439114391144 
+ lift: 1.83024835639192 
+ conviction: 5.668568232662199 
+
+
+ ['medium review comments'] -> ['medium commits'] 
+ support: 0.18076062639821028 
+ confidence: 0.6038863976083707 
+ lift: 1.2126559736340599 
+ conviction: 1.2673470938331013 
+
+
+ ['medium commits', 'medium review comments'] -> ['high reviewers'] 
+ support: 0.14272930648769575 
+ confidence: 0.7896039603960396 
+ lift: 1.479266430415045 
+ conviction: 2.21591262008159 
+
+
+ ['medium files', 'medium review comments'] -> ['medium commits'] 
+ support: 0.1284116331096197 
+ confidence: 0.9965277777777778 
+ lift: 2.0011137316561847 
+ conviction: 144.57986577181262 
+
+
+ ['medium files', 'medium review comments'] -> ['high reviewers'] 
+ support: 0.10827740492170022 
+ confidence: 0.8402777777777777 
+ lift: 1.5742001955853588 
+ conviction: 2.9189378465129834 
+
+
+ ['medium files', 'high reviewers', 'medium review comments'] -> ['medium commits'] 
+ support: 0.10827740492170022 
+ confidence: 1.0 
+ lift: 2.0080862533692723 
+ conviction: inf 
+
+
+ ['low discussion'] -> ['medium commits'] 
+ support: 0.15570469798657718 
+ confidence: 0.6904761904761905 
+ lift: 1.3865357463740213 
+ conviction: 1.6218895198760972 
+
+
+ ['low discussion'] -> ['medium review comments'] 
+ support: 0.12796420581655482 
+ confidence: 0.5674603174603176 
+ lift: 1.89577550003559 
+ conviction: 1.61990025244751 
+
+
+ ['low discussion'] -> ['medium files'] 
+ support: 0.1185682326621924 
+ confidence: 0.5257936507936508 
+ lift: 1.6344211537187894 
+ conviction: 1.4303894863946534 
+
+
+ ['medium files', 'low discussion'] -> ['medium commits'] 
+ support: 0.1185682326621924 
+ confidence: 1.0 
+ lift: 2.0080862533692723 
+ conviction: inf 
+
+
+ ['high reviewers', 'low discussion'] -> ['medium review comments'] 
+ support: 0.10246085011185682 
+ confidence: 0.8641509433962264 
+ lift: 2.8869616718842543 
+ conviction: 5.157718120805371 

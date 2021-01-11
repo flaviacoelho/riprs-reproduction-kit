@@ -1,0 +1,6 @@
+repo,pr_number,before_commit,after_commit
+"""sling-slingstart-maven-plugin""",5,,
+"""sling-slingstart-maven-plugin""",4,,
+"""sling-slingstart-maven-plugin""",3,https://github.com/apache/sling-slingstart-maven-plugin/commit/2dd9907b65d7a8f1adba01b8c73bb56aaf77745e,https://github.com/apache/sling-slingstart-maven-plugin/commit/2b30809fc39ed1180e15d4417688855e94e71599
+"""sling-slingstart-maven-plugin""",2,,
+"""sling-slingstart-maven-plugin""",1,,

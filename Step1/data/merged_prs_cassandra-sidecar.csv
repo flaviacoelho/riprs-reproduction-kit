@@ -1,0 +1,3 @@
+repo,pr_number,before_commit,after_commit
+"""cassandra-sidecar""",3,https://github.com/apache/cassandra-sidecar/commit/da50509f839f180e8cffe3b754c63ff30def7598,https://github.com/apache/cassandra-sidecar/commit/233930224d0b52f734ce9f1cda2e4422ee304a9b
+"""cassandra-sidecar""",1,https://github.com/apache/cassandra-sidecar/commit/e8cc17942e20a2cc20dc11b421034e5a4833ed06,https://github.com/apache/cassandra-sidecar/commit/d013dfebd27013d957350fe68f4d29e423bd5a7e

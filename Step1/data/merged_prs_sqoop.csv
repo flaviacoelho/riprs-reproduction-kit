@@ -1,0 +1,13 @@
+repo,pr_number,before_commit,after_commit
+"""sqoop""",81,https://github.com/apache/sqoop/commit/1a44486667773cede26433615cb40d75e459549e,https://github.com/apache/sqoop/commit/8982ab9e81e8c40335946a0bf532b27985821f1a
+"""sqoop""",80,,
+"""sqoop""",78,,
+"""sqoop""",77,https://github.com/apache/sqoop/commit/6024180f240a3af68626bb3bd4b57b0fd5c1c008,https://github.com/apache/sqoop/commit/e8971b9f51e26f6822c52d917e8771de73580885
+"""sqoop""",74,https://github.com/apache/sqoop/commit/03e3a0842a92db2bfc283570ffbd13b4afcda9b3,https://github.com/apache/sqoop/commit/24a2c17a74465811cd147abfcab54363f57fccb6
+"""sqoop""",73,https://github.com/apache/sqoop/commit/8fa03fd6fa6b0679bb90a4546a5ddf8067f68062,https://github.com/apache/sqoop/commit/c0de8ce1ec94840e635c2a0be74da196cb89b460
+"""sqoop""",72,https://github.com/apache/sqoop/commit/9067130b03334147e58268bc07607d536a63818e,https://github.com/apache/sqoop/commit/0652d040f9cc70fba858394aea8c931e14c3f6eb
+"""sqoop""",71,https://github.com/apache/sqoop/commit/9af3c68b7c258c5b022dbb14496a9d59bef18bae,https://github.com/apache/sqoop/commit/7c24cd7bb24cdda9c99c0b9db13f86d34217a727
+"""sqoop""",70,,
+"""sqoop""",69,,
+"""sqoop""",67,,
+"""sqoop""",66,,

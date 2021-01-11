@@ -1,0 +1,16 @@
+repo,pr_number,before_commit,after_commit
+"""hive""",738,,
+"""hive""",737,,
+"""hive""",734,https://github.com/apache/hive/commit/58c16c9798f2de460b35d19d6d61163ad57111ce,https://github.com/apache/hive/commit/38cc5d695bcddf2d0f08b2003452b295ab1799ea
+"""hive""",732,https://github.com/apache/hive/commit/a60679cb93c48f00152236ea237ded917f03a50f,https://github.com/apache/hive/commit/2a09c8d649cf83fdb0d6b41da8cd2e766a0d6ff3
+"""hive""",724,https://github.com/apache/hive/commit/0a8e4ec4cf90508a5c782584d763f5d57c8efe86,https://github.com/apache/hive/commit/e3f604b68fb42d7e519aefcbba55bb2da32e02d6
+"""hive""",687,https://github.com/apache/hive/commit/bf564da6cc5d5d9554a6bbf6757fc1f26cb21da7,https://github.com/apache/hive/commit/9c9b06fe2040c1764aa41cd46cb09cb27bb30f57
+"""hive""",675,,
+"""hive""",671,https://github.com/apache/hive/commit/9246f91d7f3ee6b2c798e5f06425a91396596af5,https://github.com/apache/hive/commit/18a5dcb95b1707d540f95b1d6898266977b2b464
+"""hive""",648,https://github.com/apache/hive/commit/0b4ab418a420585080494d3bebfc269bf4d389f7,https://github.com/apache/hive/commit/c440236bc7f9b5c62265e8f62d930376e9228165
+"""hive""",554,,
+"""hive""",209,,
+"""hive""",207,https://github.com/apache/hive/commit/038b7702aedd20f057d73d38f0b8780786a85e2a,https://github.com/apache/hive/commit/62a3778e5df01a1a2aed97b9ec4b0a25b5a7ce3d
+"""hive""",206,,
+"""hive""",198,,
+"""hive""",98,https://github.com/apache/hive/commit/30093b7ae571e6907346e84a5346e320ec92d87f,https://github.com/apache/hive/commit/58d1befa2131254b53122b3573189ac1c5022217
