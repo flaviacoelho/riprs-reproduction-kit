@@ -9,10 +9,9 @@ You can also go along the links to get access to our results!
 * RQ<sub>1</sub> How common are refactoring-inducing pull requests?
 * RQ<sub>2</sub> How do refactoring-inducing pull requests compare to non-refactoring-inducing ones?
 
-
 ### *Research design*
 
-<img src="./images/ResearchDesign.png"> 
+![plot]<images/ResearchDesign.png> 
 
 #### Step 1. Mining merged pull requests
 1. Search for Apache's non-archived Java repositories in [GitHub](https://github.com/search), by inputting *"user:apache language:java archived:false"*
