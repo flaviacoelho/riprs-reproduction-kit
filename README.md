@@ -11,7 +11,7 @@ You can also go along the links to get access to our results!
 
 ### *Research design*
 
-![plot](images/ResearchDesign.png)
+[plot](images/ResearchDesign.png)
 
 <img src="images/ResearchDesign.png">
 
