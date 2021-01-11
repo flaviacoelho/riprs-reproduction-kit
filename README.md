@@ -11,7 +11,7 @@ You can also go along the links to get access to our results!
 
 ### *Research design*
 
-<img src="https://github.com/flaviacoelho/msr2021-reproduction-kit/blob/master/images/ResearchDesign.png" width="auto" height="auto">
+<img src="https://github.com/flaviacoelho/riprs-reproduction-kit/blob/master/images/ResearchDesign.png" width="auto" height="auto">
 
 #### Step 1. Mining merged pull requests
 1. Search for Apache's non-archived Java repositories in [GitHub](https://github.com/search), by inputting *"user:apache language:java archived:false"*
