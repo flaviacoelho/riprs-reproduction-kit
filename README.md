@@ -69,10 +69,10 @@ The recovery of squashed commits from GitHub was built in lines 33-45, 126-130, 
       
 
 #### Step 4. Association rule learning
-* Run the Python script [pre-arl](Step4/pre_arl.py) for preparing data for ARL running.
-  * Input was preset as *code review dataset* (Step 3) - available in [./input/](Step4/input)
+* Run the Python script [pre-arl](Step4/pre-ARL/pre_arl.py) for preparing data for ARL running.
+  * Input was preset as *code review dataset* (Step 3) - available in [./pre-arl/input](Step4/pre-arl/input)
   * Output: 
-      * updated *Code review dataset* - [output_pre_arl_at_apache.csv](Step4/output/output_pre_arl_at_apache.csv)
+      * updated *Code review dataset* - [output_pre_arl_at_apache.csv](Step4/pre-ARL/output_pre_arl_at_apache.csv)
   
 * Run the Python script [arl](Step4/arl.py) for running the FP-growth algorithm on the following code reviewing-related features.
 
@@ -105,10 +105,11 @@ We applied one-hot encoding for binning of features, as described below.
       * *Code review dataset* - [output_ARL_at_apache.csv](Step4/output/output_ARL_at_apache.csv)
 
 #### Step 5. Data analysis
-* Run the Python script [statistical_tests](Step6/statistical_tests.py) for running these statistical tests: checking for data normality through Shapiro-Wilk test; checking for homogeneity of variances via Levene's test; computation of confidence interval for the difference in mean or median, based on the output from (a) and (b); and performing of non-parametric Mann Whitney U test and *Common-Language Effect Size* (CLES)
+* Run the Python script [statistical_tests](Step5/statistical_tests.py) for running these statistical tests: checking for data normality through Shapiro-Wilk test; checking for homogeneity of variances via Levene's test; computation of confidence interval for the difference in mean or median, based on the output from previous phases; and performing of non-parametric Mann Whitney U test and *Common-Language Effect Size* (CLES)
 
-   * Input was preset as *code review dataset labeled by cluster* (Step 4) - available in [./input/](Step6/input)
+   * Input was preset as *code review dataset* (Step 4) - available in [./input/](Step5/input)
    * No output (the results are displayed on the console)
-
-
+   
+* Utils:
+      * Python scripts ([summary](Step5/utils/summary.py)) and ([eda](Step5/utils/eda.py)) for summarizing the output dataset
 
