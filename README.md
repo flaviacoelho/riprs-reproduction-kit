@@ -111,5 +111,5 @@ We applied one-hot encoding for binning of features, as described below.
    * No output (the results are displayed on the console)
    
 * Utils:
-      * Python scripts ([summary](Step5/utils/summary.py)) and ([eda](Step5/utils/eda.py)) for summarizing the output dataset
+  * Python scripts ([summary](Step5/utils/summary.py)) and ([eda](Step5/utils/eda.py)) for summarizing the output dataset
 
