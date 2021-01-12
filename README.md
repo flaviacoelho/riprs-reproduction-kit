@@ -5,12 +5,13 @@
 Following, we present the instructions for reproducing the exploratory study on [Apache](https://github.com/apache)'s refactoring-inducing pull requests in line with the research questions and design below.
 You can also go along the links to get access to our results!
 
+---
 ### *Research questions*
 * RQ<sub>1</sub> How common are refactoring-inducing pull requests?
 * RQ<sub>2</sub> How do refactoring-inducing pull requests compare to non-refactoring-inducing ones?
 
+---
 ### *Research design*
-
 ![](images/ResearchDesign.png)
 
 #### Step 1. Mining merged pull requests
