@@ -66,7 +66,7 @@ The recovery of squashed commits from GitHub was built in lines 33-45, 126-130, 
       * *Code review comments dataset* - [refactorings_at_apache_output_review_comments.csv](Step3/results/refactorings_at_apache_output_review_comments.zip)
    * Utils:
       * A Python script ([datasetsOrganizer](Step3/datasetsOrganizer.py)) for cleaning the output datasets (checking for mirrored repositories, duplicates, and unexpected faults such as zero reviewers), resulting in [output_apache_refactorings_review.csv](Step3/results/output_apache_refactorings_review.csv) and [output_apache_refactorings_review_comments.csv](Step3/results/output_apache_refactorings_review_comments.zip). 
-      * A Python script ([githubMinerAuthoredData](Step3/githubMinerAuthoredData.py)) for marking the initial commits in the complete refactorings dataset, resulting in [output_final_refactorings_at_apache.csv](Step3/results/output_final_refactorings_at_apache.csv)
+      * A Python script ([githubMinerAuthoredData](Step3/githubMinerAuthoredData.py)) for marking the initial commits in the complete refactorings dataset, resulting in [output_final_refactorings_at_apache.csv](Step3/results/output_final_refactorings_at_apache.zip)
       * A Python script ([githubMinerCommitsData](Step3/githubMinerCommitsData.py)) for mining the number of file changes, line additions, and line deletions in subsequent commits of our sample, resulting in an updated *code review dataset* [output_reviewing_at_apache.csv](Step3/output/output_reviewing_at_apache.csv)
       
 
@@ -74,7 +74,7 @@ The recovery of squashed commits from GitHub was built in lines 33-45, 126-130, 
 * Run the Python script [pre-arl](Step4/pre-ARL/pre_arl.py) for preparing data for ARL running.
   * Input was preset as *code review dataset* (Step 3) - available in [./pre-arl/input](Step4/pre-arl/input)
   * Output: 
-      * updated *Code review dataset* - [output_pre_arl_at_apache.csv](Step4/pre-ARL/output_pre_arl_at_apache.csv)
+      * updated *Code review dataset* - [output_pre_arl_at_apache.csv](Step4/pre-ARL/output/output_pre_arl_at_apache.csv)
   
 * Run the Python script [arl](Step4/arl.py) for running the FP-growth algorithm on the following code reviewing-related features.
 
@@ -103,7 +103,7 @@ We applied one-hot encoding for binning of features, as described below.
       
    * Input was preset as *code review dataset* (Step 4 - pre-ARL) - available in [./input/](Step4/input)
    * Output:
-      * [Association rules](Step4/output/output_ARL_at_apache.txt)
+      * Association rules[output_ARL_at_apache.txt](Step4/output/output_ARL_at_apache.txt)
       * *Code review dataset* - [output_ARL_at_apache.csv](Step4/output/output_ARL_at_apache.csv)
 
 #### Step 5. Data analysis
