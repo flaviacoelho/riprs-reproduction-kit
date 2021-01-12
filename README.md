@@ -15,7 +15,7 @@ You can also go along the links to get access to our results!
 ![](images/ResearchDesign.png)
 
 #### Step 1. Mining merged pull requests
-1. Search for Apache's non-archived Java repositories in [GitHub](https://github.com/search), by inputting *"user:apache language:java archived:false"*
+1. Search for Apache's non-archived Java repositories in [GitHub](https://github.com/search), by inputting *"user:apache language:java archived:false"* `We performed this search in August 2019`
 1. Run the Python script [githubMinerPygithub](Step1/githubMinerPygithub.py)
 
 The recovery of squashed commits from GitHub was built in lines 33-45, 126-130, 163-164. Aiming the strategy's effectiveness, we followed a few open pull requests up to the merge, such as the [apache/drill's pull request 1807](https://github.com/apache/drill/pull/1807), then we (1) ran the RefactoringMiner to detect refactorings in the commits from open pull requests; (2) executed the recovery strategy after the pull requests merge; (3) ran the RefactoringMiner in the recovered commits; and (4) compared the outputs from steps (1) and (3)
