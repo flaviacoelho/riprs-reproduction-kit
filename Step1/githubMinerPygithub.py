@@ -224,7 +224,7 @@ g = Github("youruser", "yourpassword")
 # GRAPHQL API v4
 #   using an access token   
 #################
-access_token = '8a4e398d1f865c0c37f6aad04610165ab42bb75f'
+access_token = 'youraccesstoken'
 headers = {'Authorization': 'Bearer '+ access_token}
 
 
