@@ -121,5 +121,5 @@ We applied one-hot encoding for binning of features, as described below.
   * Output: 
       * a subset of merged PRs from our sample - [spreadsheet.csv](Step5/output/output_spreadsheet.csv)
       
- * Utils (qualitative analysis):
+* Utils (qualitative analysis):
   * Python script ([summary-qualitative](Step5/utils/summary_qualitative.py)) for summarizing the qualitative analysis
