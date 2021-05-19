@@ -2,8 +2,8 @@
 
 ## Reproduction kit
 
-Following, we present the instructions for reproducing the exploratory study on [Apache](https://github.com/apache)'s refactoring-inducing pull requests in line with the research questions and design below.
-You can also go along the links to get access to our results!
+Following, we present the instructions for reproducing an empirical study on [Apache](https://github.com/apache)'s refactoring-inducing pull requests in line with the research questions and design below.
+You can also go along the links to get access to our data and results!
 
 ---
 ### *Research questions*
