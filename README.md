@@ -68,6 +68,7 @@ The recovery of squashed commits from GitHub was built in lines 33-45, 126-130, 
       * A Python script ([datasetsOrganizer](Step3/datasetsOrganizer.py)) for cleaning the output datasets (checking for mirrored repositories, duplicates, and unexpected faults such as zero reviewers), resulting in [output_apache_refactorings_review.csv](Step3/results/output_apache_refactorings_review.csv) and [output_apache_refactorings_review_comments.csv](Step3/results/output_apache_refactorings_review_comments.zip). 
       * A Python script ([githubMinerAuthoredData](Step3/githubMinerAuthoredData.py)) for marking the initial commits in the complete refactorings dataset, resulting in [output_final_refactorings_at_apache.csv](Step3/results/output_final_refactorings_at_apache.zip)
       * A Python script ([githubMinerCommitsData](Step3/githubMinerCommitsData.py)) for mining the number of file changes, line additions, and line deletions in subsequent commits of our sample, resulting in an updated *code review dataset* [output_reviewing_at_apache.csv](Step3/output/output_reviewing_at_apache.csv)
+      * A Python script ([githubMinerParentsData](Step3/githubMinerParentsData.py)) for mining the number of parents in subsequent commits of our sample, resulting in an updated *code review dataset* [output_reviewing_at_apache.csv](Step3/output/output_reviewing_at_apache.csv)
       
 
 #### Step 4. Association rule learning
