@@ -1,4 +1,4 @@
-# An empirical study on refactoring-inducing pull requests
+# An Empirical Study on Refactoring-Inducing Pull Requests
 
 ## Reproduction kit
 
@@ -9,6 +9,7 @@ You can also go along the links to get access to our results!
 ### *Research questions*
 * RQ<sub>1</sub> How common are refactoring-inducing pull requests?
 * RQ<sub>2</sub> How do refactoring-inducing pull requests compare to non-refactoring-inducing ones?
+* RQ<sub>3</sub> Are refactoring edits induced by code reviews?
 
 ---
 ### *Research design*
