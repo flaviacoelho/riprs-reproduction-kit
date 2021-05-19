@@ -12,7 +12,6 @@ You can also go along the links to get access to our results!
 
 ---
 ### *Research design*
-![](images/ResearchDesign.png)
 
 #### Step 1. Mining merged pull requests
 1. Search for Apache's non-archived Java repositories in [GitHub](https://github.com/search), by inputting *"user:apache language:java archived:false"* `We performed this search in August 2019`
