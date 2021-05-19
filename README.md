@@ -113,8 +113,13 @@ We applied one-hot encoding for binning of features, as described below.
    * Input was preset as *code review dataset* (Step 4) - available in [./input/](Step5/input)
    * No output (the results are displayed on the console)
    
-* Utils:
+* Utils (quantitative analysis):
   * Python scripts ([summary](Step5/utils/summary.py)) and ([eda](Step5/utils/eda.py)) for summarizing the output dataset
   
-  
-
+* Run the Python script [pre-qualitative-analysis](Step5/pre_qualitative-analysis.py) for preparing data for qualitative analysis, by manual exploration of review comments.
+  * Input was preset as *code review dataset* (Step 4) - available in [./input](Step5/input)
+  * Output: 
+      * a subset of merged PRs from our sample - [spreadsheet.csv](Step5/output/output_spreadsheet.csv)
+      
+ * Utils (qualitative analysis):
+  * Python script ([summary-qualitative](Step5/utils/summary_qualitative.py)) for summarizing the qualitative analysis
