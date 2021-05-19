@@ -104,8 +104,8 @@ We applied one-hot encoding for binning of features, as described below.
       
    * Input was preset as *code review dataset* (Step 4 - pre-ARL) - available in [./input/](Step4/input)
    * Output:
-      * Association rules[output_ARL_at_apache.txt](Step4/output/output_ARL_at_apache.txt)
-      * *Code review dataset* - [output_ARL_at_apache.csv](Step4/output/output_ARL_at_apache.csv)
+      * Association rules [output_ARL_at_apache.txt](Step4/output/output_ARL_at_apache.txt)
+      * *Code review dataset* [output_ARL_at_apache.csv](Step4/output/output_ARL_at_apache.csv)
 
 #### Step 5. Data analysis
 * Run the Python script [statistical_tests](Step5/statistical_tests.py) for running these statistical tests: checking for data normality through Shapiro-Wilk test; checking for homogeneity of variances via Levene's test; computation of confidence interval for the difference in mean or median, based on the output from previous phases; and performing of non-parametric Mann Whitney U test and *Common-Language Effect Size* (CLES)
