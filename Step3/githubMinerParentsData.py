@@ -42,13 +42,12 @@ EXTRA_DELAY = 140
 # GRAPHQL API v4
 #   using an access token   
 #################
-access_token = '8a4e398d1f865c0c37f6aad04610165ab42bb75f'
+access_token = 'your-access-token'
 headers = {'Authorization': 'Bearer '+ access_token}
 
 # REST API v3
 #   using username and password
-#miner = Github("user", "password")
-miner = Github("flaviacoelho", "gW56L9.cSRKGFLz")
+miner = Github("user", "password")
 
 ################# STEP 1
 # preparing data
