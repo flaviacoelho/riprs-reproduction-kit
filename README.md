@@ -12,7 +12,7 @@ You can also go along the links to get access to our data and results!
 * RQ<sub>3</sub> Are refactoring edits induced by code reviews?
 ---
 
-[Research Design](./images/ResearchDesign.png)
+![Research Design](./images/ResearchDesign.png)
 
 ---
 ### *Research design*
