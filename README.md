@@ -10,6 +10,9 @@ You can also go along the links to get access to our data and results!
 * RQ<sub>1</sub> How common are refactoring-inducing pull requests?
 * RQ<sub>2</sub> How do refactoring-inducing pull requests compare to non-refactoring-inducing ones?
 * RQ<sub>3</sub> Are refactoring edits induced by code reviews?
+---
+
+[Research Design](./images/bannekat.png)
 
 ---
 ### *Research design*
